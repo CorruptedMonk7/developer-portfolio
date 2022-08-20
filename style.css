@@ -20,12 +20,23 @@ section {
 }
 
 .half-width {
-    width: 50%;
+    width: 70%;
     padding: 5%;
 }
 
-.half-width img {
-    width: 80%;
+.half-width2 {
+    width: 30%;
+    padding-top: 5%;
+}
+
+.half-width2 img {
+    width: 30%;
+    float: right;
+
+}
+
+p {
+    margin-bottom: 40px;
 }
 
 .contact-button {
@@ -36,9 +47,31 @@ section {
     border-radius: 10px;
     color: white;
     font-weight: 700;
+
+}
+
+#team-id {
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.team {
+    width: 25%;
+    padding: 5%;
+}
+
+.team img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 25px;
+    /* padding-left: 15px;
+    padding-right: 5px; */
+    text-align: center
 }
